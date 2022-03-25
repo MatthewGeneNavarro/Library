@@ -1,0 +1,60 @@
+* {
+    border: 1px solid red;
+}
+.container{
+margin: 0 auto;
+}
+
+.nav{
+    height: 50px;
+    width: auto;
+    /*grid-area: nav;*/
+    background-color: aquamarine;
+}
+
+.body{
+    height: 400px;
+    width: auto;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookshelf{
+    flex: 1;
+    height: 100px;
+    width: auto;
+    background-color: red; 
+    display: flex;
+}
+
+.hide-form{
+    height: 100px;
+    width: auto;
+    flex:1;
+    display: none;
+}
+
+.show-form{
+    flex:1;
+    display: block;
+}
+
+.books{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: .5rem;
+    border: 2px solid black;
+    border-radius: .3rem;
+    text-align: center;
+}
+
+.div-btn{
+    height: 40px;
+    width: 80px;
+}
+
+
+
+
